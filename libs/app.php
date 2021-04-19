@@ -35,7 +35,7 @@ class App
                 if (method_exists($controller, $url[1])) {
                     if (isset($url[2])) {
                         //el método tiene parámetros
-                        //sacamos e # de parametros
+                        //sacamos el numero de parametros
                         $nparam = sizeof($url) - 2;
                         //crear un arreglo con los parametros
                         $params = [];
