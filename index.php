@@ -11,6 +11,9 @@ ini_set("error_log", "C:/xampp/htdocs/cursoPHP/expenses-app-mvc/php-error.log");
 error_log("inicio de aplicacion web");
 
 require_once 'config/config.php';
+require_once 'classes/errormmessages.php';
+require_once 'classes/successmessages.php';
+
 require_once 'libs/app.php';
 require_once 'libs/database.php';
 require_once 'libs/model.php';
