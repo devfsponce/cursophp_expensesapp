@@ -98,3 +98,489 @@ Stack trace:
 [19-Apr-2021 22:42:15 Europe/Berlin] inicio de aplicacion web
 [19-Apr-2021 22:52:00 Europe/Berlin] inicio de aplicacion web
 [19-Apr-2021 22:54:36 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:32:18 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:32:18 Europe/Berlin] PHP Warning:  require_once(classes/errormmessages.php): failed to open stream: No such file or directory in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php on line 21
+[21-Apr-2021 22:32:18 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'classes/errormmessages.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php on line 21
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:22 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:22 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:22 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:22 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:22 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:22 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:22 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:22 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:22 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:22 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:22 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:22 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:22 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:22 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:22 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
+[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
+[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login

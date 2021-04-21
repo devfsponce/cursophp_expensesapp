@@ -1,9 +1,10 @@
 <?php
-class Login extends Controller
+class Login extends SessionController
 {
     function __construct()
     {
         parent::__construct();
+        error_log('Login::construct -> Inicio de Login');
     }
 
     function render()
