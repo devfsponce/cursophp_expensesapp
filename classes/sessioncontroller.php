@@ -1,5 +1,6 @@
 <?php
 require_once 'classes/session.php';
+require_once 'models/usermodel.php';
 class SessionController extends Controller
 {
 
@@ -158,7 +159,7 @@ class SessionController extends Controller
                 break;
             }
         }
-        header('location: ' . $url);
+        header('location:' . constant('URL') . $url);
     }
 
     private function isAuthorized($role)
