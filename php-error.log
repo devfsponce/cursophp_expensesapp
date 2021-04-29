@@ -1,586 +1,882 @@
-[08-Apr-2021 16:41:57 Europe/Berlin] inicio de aplicacion web
-[08-Apr-2021 17:03:15 Europe/Berlin] inicio de aplicacion web
-[08-Apr-2021 17:03:15 Europe/Berlin] APP::construct->no hay controlador especificado
-[08-Apr-2021 17:03:15 Europe/Berlin] PHP Warning:  require_once(controllers/login.php): failed to open stream: No such file or directory in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php on line 17
-[08-Apr-2021 17:03:15 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'controllers/login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php on line 17
-[13-Apr-2021 14:12:06 Europe/Berlin] inicio de aplicacion web
-[13-Apr-2021 14:12:06 Europe/Berlin] APP::construct->no hay controlador especificado
-[13-Apr-2021 14:12:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::loadModel() in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php:23
-Stack trace:
-#0 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php(16): App->__construct()
-#1 {main}
-  thrown in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php on line 23
-[13-Apr-2021 15:46:49 Europe/Berlin] inicio de aplicacion web
-[13-Apr-2021 15:46:49 Europe/Berlin] APP::construct->no hay controlador especificado
-[13-Apr-2021 15:46:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Login::loadModel() in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php:23
-Stack trace:
-#0 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php(16): App->__construct()
-#1 {main}
-  thrown in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php on line 23
-[16-Apr-2021 00:26:15 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:26:16 Europe/Berlin] APP::construct->no hay controlador especificado
-[16-Apr-2021 00:35:05 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:35:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Controller' not found in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php:2
-Stack trace:
-#0 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php(2): require_once()
-#1 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php(14): require_once('C:\\xampp\\htdocs...')
-#2 {main}
-  thrown in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php on line 2
-[16-Apr-2021 00:35:16 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:35:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Controller' not found in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php:2
-Stack trace:
-#0 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php(2): require_once()
-#1 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php(14): require_once('C:\\xampp\\htdocs...')
-#2 {main}
-  thrown in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php on line 2
-[16-Apr-2021 00:35:57 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:35:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Controller' not found in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php:2
-Stack trace:
-#0 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php(2): require_once()
-#1 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php(14): require_once('C:\\xampp\\htdocs...')
-#2 {main}
-  thrown in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php on line 2
-[16-Apr-2021 00:37:02 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:37:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Controller' not found in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php:2
-Stack trace:
-#0 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php(2): require_once()
-#1 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php(14): require_once('C:\\xampp\\htdocs...')
-#2 {main}
-  thrown in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php on line 2
-[16-Apr-2021 00:37:19 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:37:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Controller' not found in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php:2
-Stack trace:
-#0 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php(2): require_once()
-#1 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php(14): require_once('C:\\xampp\\htdocs...')
-#2 {main}
-  thrown in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php on line 2
-[16-Apr-2021 00:37:22 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:37:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Controller' not found in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php:2
-Stack trace:
-#0 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php(2): require_once()
-#1 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php(14): require_once('C:\\xampp\\htdocs...')
-#2 {main}
-  thrown in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php on line 2
-[16-Apr-2021 00:37:25 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:37:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Controller' not found in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php:2
-Stack trace:
-#0 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php(2): require_once()
-#1 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php(14): require_once('C:\\xampp\\htdocs...')
-#2 {main}
-  thrown in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php on line 2
-[16-Apr-2021 00:37:30 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:37:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Controller' not found in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php:2
-Stack trace:
-#0 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php(2): require_once()
-#1 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php(14): require_once('C:\\xampp\\htdocs...')
-#2 {main}
-  thrown in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php on line 2
-[16-Apr-2021 00:37:43 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:37:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Controller' not found in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php:2
-Stack trace:
-#0 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\libs\app.php(2): require_once()
-#1 C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php(14): require_once('C:\\xampp\\htdocs...')
-#2 {main}
-  thrown in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\controllers\errores.php on line 2
-[16-Apr-2021 00:38:44 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:38:44 Europe/Berlin] APP::construct->no hay controlador especificado
-[16-Apr-2021 00:38:48 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:39:02 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:39:52 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:41:47 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:42:26 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:42:31 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:44:00 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:47:03 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 00:47:07 Europe/Berlin] inicio de aplicacion web
-[16-Apr-2021 01:01:54 Europe/Berlin] inicio de aplicacion web
-[17-Apr-2021 23:51:29 Europe/Berlin] inicio de aplicacion web
-[19-Apr-2021 22:42:15 Europe/Berlin] inicio de aplicacion web
-[19-Apr-2021 22:52:00 Europe/Berlin] inicio de aplicacion web
-[19-Apr-2021 22:54:36 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:32:18 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:32:18 Europe/Berlin] PHP Warning:  require_once(classes/errormmessages.php): failed to open stream: No such file or directory in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php on line 21
-[21-Apr-2021 22:32:18 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'classes/errormmessages.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\index.php on line 21
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:13 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:13 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:13 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:13 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:22 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:22 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:22 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:22 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:22 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:22 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:22 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:22 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:22 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:22 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:22 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:22 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:22 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:22 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:22 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:22 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:33:23 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:33:23 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:33:23 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:33:23 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:34:19 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:34:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:34:19 Europe/Berlin] PHP Notice:  Undefined index: size in C:\xampp\htdocs\cursoPHP\expenses-app-mvc\classes\sessioncontroller.php on line 98
-[21-Apr-2021 22:34:19 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:52 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:52 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
-[21-Apr-2021 22:37:56 Europe/Berlin] inicio de aplicacion web
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[21-Apr-2021 22:37:56 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> expenses-app-mvc
-[21-Apr-2021 22:37:56 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/login/index.php, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:03 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:03 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:03 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:04 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:04 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:04 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:04 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:04 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:04 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:04 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:04 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:04 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:04 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:04 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:04 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:04 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:04 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:35:04 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:35:04 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:35:04 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:57 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:57 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:57 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:58 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:58 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:58 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:58 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:58 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:58 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:58 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:58 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:58 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:58 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:58 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:58 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:58 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:58 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:36:58 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:36:58 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:36:58 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:36:58 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:36:58 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:36:58 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:25 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:25 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:25 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:41:43 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:41:43 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:41:43 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:26 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:26 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:26 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:27 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:27 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:27 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:27 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:27 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:27 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:27 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:27 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:27 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:27 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:27 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:45:27 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:45:27 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:45:27 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:47:09 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:47:09 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:47:09 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login
+[29-Apr-2021 04:50:14 Europe/Berlin] inicio de aplicacion web
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession()
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/cursoPHP/expenses-app-mvc/, url => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] sessionController::isPublic(): currentURL => expenses-app-mvc
+[29-Apr-2021 04:50:14 Europe/Berlin] SessionController::validateSession() redirect al login
+[29-Apr-2021 04:50:14 Europe/Berlin] Login::construct -> Inicio de Login

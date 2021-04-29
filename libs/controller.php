@@ -49,7 +49,7 @@ class Controller
         return $_POST[$name];
     }
 
-    function redirect($route, $mensajes)
+    function redirect($route, $mensajes = [])
     {
         $data = [];
         $params = '';

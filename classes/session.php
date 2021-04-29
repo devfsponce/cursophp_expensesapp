@@ -6,6 +6,7 @@ class Session
 
     public function __construct()
     {
+        //comprueba si la sesion esta iniciada / sino la inicia 
         if (session_status() == PHP_SESSION_NONE) {
             session_start();
         }
