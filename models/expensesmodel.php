@@ -17,7 +17,7 @@ class ExpensesModel extends Model implements IModel
     {
         $this->title = $title;
     }
-    public function setAmoung($amount)
+    public function setAmount($amount)
     {
         $this->amount = $amount;
     }
@@ -259,6 +259,33 @@ class ExpensesModel extends Model implements IModel
 
             $total = $query->fetch(PDO::FETCH_ASSOC)['total'];
             if ($total == NULL) $total = 0;
+            return $total;
+        } catch (PDOException $e) {
+            return NULL;
+        }
+    }
+
+    function getTotalByMonthAndCategory($date, $categoryId, $userid)
+    {
+        try {
+            $total = 0;
+            $year = substr($date, 0, 4);
+            $month = substr($date, 5, 7);
+
+            $query = $this->prepare("SELECT SUM(amount) as total from expenses WHERE category_id = :categoryid, AND id_user = :user AND YEAR(date) = :year AND MONTH(date) = :month");
+            $query->execute([
+                'categoryid'    => $categoryId,
+                'userid'        => $userid,
+                'year'          => $year,
+                'month'         => $month
+            ]);
+
+            if ($query->rowCount() > 0) {
+                $total = $query->fetch(PDO::FETCH_ASSOC)['total'];
+            } else {
+                return 0;
+            }
+
             return $total;
         } catch (PDOException $e) {
             return NULL;

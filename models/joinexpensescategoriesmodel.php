@@ -4,7 +4,7 @@ class JoinExpensesCategoriesModel extends Model
     private $expenseId;
     private $title;
     private $amount;
-    private $categoriyId;
+    private $categoryId;
     private $date;
     private $nameCategory;
     private $color;
@@ -39,7 +39,7 @@ class JoinExpensesCategoriesModel extends Model
         $this->expenseId    = $array['expense_id'];
         $this->title        = $array['title'];
         $this->amount       = $array['amount'];
-        $this->categoriyId  = $array['category_id'];
+        $this->categoryId  = $array['category_id'];
         $this->date         = $array['date'];
         $this->nameCategory = $array['name'];
         $this->color        = $array['color'];
@@ -52,7 +52,7 @@ class JoinExpensesCategoriesModel extends Model
 
         $array['id']            = $this->expenseId;
         $array['title']         = $this->title;
-        $array['category_id']   = $this->categoriyId;
+        $array['category_id']   = $this->categoryId;
         $array['amount']        = $this->amount;
         $array['date']          = $this->date;
         $array['id_user']       = $this->userId;
@@ -61,6 +61,8 @@ class JoinExpensesCategoriesModel extends Model
 
         return $array;
     }
+
+
 
     // ----- Geters -----
     public function  getExpenseId()
