@@ -198,7 +198,7 @@ class UserModel extends Model implements IModel
     {
         $this->photo = $photo;
     }
-    public function setname($name)
+    public function setName($name)
     {
         $this->name = $name;
     }
