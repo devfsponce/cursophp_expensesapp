@@ -20,47 +20,47 @@ class User extends SessionController
     function updateBudget()
     {
         if (!$this->existPOST('budget')) {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATEBUDGET]); //TODO:
             return;
         }
 
         $budget = $this->getPost('budget');
 
         if (empty($budget) || $budget == 0 || $budget < 0) {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATEBUDGET]); //TODO:
             return;
         }
 
         $this->user->setBudget($budget);
         if ($this->user->update()) {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['success' => SuccessMessages::SUCCESS_USER_UPDATEBUDGET]); //TODO:
         }
     }
 
     function updateName()
     {
         if (!$this->existPOST('name')) {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATENAME]); //TODO:
             return;
         }
 
         $name = $this->getPost('name');
 
         if (empty($name) || $name == NULL) {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATENAME_EMPTY]); //TODO:
             return;
         }
 
         $this->user->setName($name);
         if ($this->user->update()) {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['success' => SuccessMessages::SUCCESS_USER_UPDATENAME]); //TODO:
         }
     }
 
     function updatePassword()
     {
         if (!$this->existPOST(['current_password', 'new_password'])) {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATEPASSWORD]); //TODO:
             return;
         }
 
@@ -68,12 +68,12 @@ class User extends SessionController
         $new = $this->getPost('new_password');
 
         if (empty($current) || empty($new)) {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATEPASSWORD_EMPTY]); //TODO:
             return;
         }
 
         if ($current === $new) {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATEPASSWORD_ISNOTTHESAME]); //TODO:
             return;
         }
 
@@ -81,21 +81,21 @@ class User extends SessionController
         if ($newHash) {
             $this->user->setPassword($new);
             if ($this->user->update()) {
-                $this->redirect('user', []); //TODO:
+                $this->redirect('user', ['success' => SuccessMessages::SUCCESS_USER_UPDATEPASSWORD]); //TODO:
                 return;
             } else {
-                $this->redirect('user', []); //TODO:
+                $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATEPASSWORD]); //TODO:
                 return;
             }
         } else {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATEPASSWORD]); //TODO:
             return;
         }
     }
     function updatePhoto()
     {
         if (!isset($_FILES['photo'])) {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATEPHOTO]); //TODO:
             return;
         }
 
@@ -118,16 +118,16 @@ class User extends SessionController
         }
 
         if (!$uploadOk) {
-            $this->redirect('user', []); //TODO:
+            $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATEPHOTO_FORMAT]); //TODO:
             return;
         } else {
             if (move_uploaded_file($photo['tmp_name'], $targetFile)) {
                 $this->user->setPhoto($hash);
                 $this->user->update();
-                $this->redirect('user', []); //TODO:
+                $this->redirect('user', ['success' => SuccessMessages::SUCCESS_USER_UPDATEPHOTO]); //TODO:
                 return;
             } else {
-                $this->redirect('user', []); //TODO:
+                $this->redirect('user', ['error' => ErrorsMessages::ERROR_USER_UPDATEPHOTO]); //TODO:
                 return;
             }
         }

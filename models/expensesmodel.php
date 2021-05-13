@@ -272,7 +272,7 @@ class ExpensesModel extends Model implements IModel
             $year = substr($date, 0, 4);
             $month = substr($date, 5, 7);
 
-            $query = $this->prepare("SELECT SUM(amount) as total from expenses WHERE category_id = :categoryid, AND id_user = :user AND YEAR(date) = :year AND MONTH(date) = :month");
+            $query = $this->prepare("SELECT SUM(amount) as total from expenses WHERE category_id = :categoryid, AND id_user = :userid AND YEAR(date) = :year AND MONTH(date) = :month");
             $query->execute([
                 'categoryid'    => $categoryId,
                 'userid'        => $userid,

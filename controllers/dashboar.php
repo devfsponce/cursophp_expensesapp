@@ -1,4 +1,8 @@
 <?php
+
+require_once 'models/expensesmodel.php';
+require_once 'models/categoriesmodel.php';
+
 class Dashboard extends SessionController
 {
 

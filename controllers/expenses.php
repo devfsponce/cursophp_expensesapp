@@ -1,6 +1,7 @@
 <?php
 require_once 'models/expensesmodel.php';
 require_once 'models/expensesmodel.php';
+require_once 'models/joinexpensescategoriesmodel.php';
 
 class Expenses extends SessionController
 {
@@ -15,18 +16,22 @@ class Expenses extends SessionController
 
     function render()
     {
-        $this->view->render('expenses/index', ['user' => $this->user]);
+        $this->view->render('expenses/index', [
+            'user' => $this->user,
+            'dates' => $this->getDateList(),
+            'categories' => $this->getCategoryList()
+        ]);
     }
 
     function newExpense()
     {
         if (!$this->existPOST(['title', 'amount', 'category', 'date'])) {
-            $this->redirect('dashboard', []); //TO DO: error
+            $this->redirect('dashboard', ['error' => ErrorsMessages::ERROR_EXPENSES_NEWEXPENSE_EMPTY]); //TO DO: error
             return;
         }
 
         if ($this->user == NULL) {
-            $this->redirect('dashboard', []); //TODO: error
+            $this->redirect('dashboard', ['error' => ErrorsMessages::ERROR_EXPENSES_NEWEXPENSE]);
             return;
         }
 
@@ -39,7 +44,7 @@ class Expenses extends SessionController
         $expense->setUserId($this->user->getId());
 
         $expense->save();
-        $this->redirect('dashoard', []); // TODO: success
+        $this->redirect('dashoard', ['success' => SuccessMessages::SUCCESS_EXPENSES_NEWEXPENSE]); // TODO: success
     }
 
     function create()
@@ -78,11 +83,11 @@ class Expenses extends SessionController
         }
         $months = array_values(array_unique($months));
 
-        if (count($months) > 3) {
-            array_push($res, array_pop($months));
-            array_push($res, array_pop($months));
-            array_push($res, array_pop($months));
+        foreach ($months as $month) {
+            array_push($res, $month);
         }
+
+        error_log('Expenses::getDateList ->' . count($res));
 
         return $res;
     }
@@ -174,16 +179,19 @@ class Expenses extends SessionController
     function delete($params)
     {
         if ($params == null) {
-            $this->redirect('expenses', []); //TODO: error
+            $this->redirect('expenses', ['error' => ErrorsMessages::ERROR_EXPENSES_DELETE]); //TODO: error
+            error_log('Expenses::delete() -> params null');
         }
 
         $id = $params[0];
         $res = $this->model->delete($id);
 
         if ($res) {
-            $this->redirect('expenses', []); // TODO: success
+            error_log('Expenses::delete() -> eliminado ' . $id);
+            $this->redirect('expenses', ['success' => SuccessMessages::SUCCESS_EXPENSES_DELETE]); // TODO: success
         } else {
-            $this->redirect('expenses', []); // TODO: error
+            error_log('Expenses::delete() -> error');
+            $this->redirect('expenses', ['error' => ErrorsMessages::ERROR_EXPENSES_DELETE]); // TODO: error
         }
     }
 }

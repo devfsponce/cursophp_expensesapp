@@ -64,6 +64,6 @@ class Controller
             $params = '?' . $params;
         }
 
-        header('location: ' . constant('URL') . '/' . $route . $params);
+        header('location: ' . constant('URL')  . $route . $params);
     }
 }

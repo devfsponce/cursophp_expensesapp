@@ -51,7 +51,7 @@ class UserModel extends Model implements IModel
                 $item = new UserModel();
                 $item->setId($p['id']);
                 $item->setUsername($p['username']);
-                $item->setPassword($p['password']);
+                $item->setPassword($p['password'], false);
                 $item->setRole($p['role']);
                 $item->setBudget($p['budget']);
                 $item->setPhoto($p['photo']);
@@ -79,7 +79,7 @@ class UserModel extends Model implements IModel
             $user = $query->fetch(PDO::FETCH_ASSOC);
             $this->setId($user['id']);
             $this->setUsername($user['username']);
-            $this->setPassword($user['password']);
+            $this->setPassword($user['password'], false);
             $this->setRole($user['role']);
             $this->setBudget($user['budget']);
             $this->setPhoto($user['photo']);
@@ -175,9 +175,13 @@ class UserModel extends Model implements IModel
         $this->username = $username;
     }
     // ----- setPassword -----
-    public function setPassword($password)
+    public function setPassword($password, $hashed = true)
     {
-        $this->password = $this->getHashedPassword($password);
+        if ($hashed) {
+            $this->password = $this->getHashedPassword($password);
+        } else {
+            $this->password = $password;
+        }
     }
 
     private function getHashedPassword($password)

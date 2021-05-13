@@ -19,7 +19,7 @@ class Signup extends SessionController
             $password = $this->getPost('password');
 
             if ($username == '' || empty($username) || $password == '' || empty($password)) {
-                $this->redirect('signup', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EMPTY]);
+                $this->redirect('signup', ['error' => ErrorsMessages::ERROR_SIGNUP_NEWUSER_EMPTY]);
             }
 
             $user = new UserModel();
@@ -28,14 +28,14 @@ class Signup extends SessionController
             $user->setRole('user');
 
             if ($user->exists($username)) {
-                $this->redirect('signup', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER_EXISTS]);
+                $this->redirect('signup', ['error' => ErrorsMessages::ERROR_SIGNUP_NEWUSER_EXISTS]);
             } else if ($user->save()) {
                 $this->redirect('', ['success' => SuccessMessages::SUCCESS_SIGNUP_NEWUSER]);
             } else {
-                $this->render('signup', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER]);
+                $this->render('signup', ['error' => ErrorsMessages::ERROR_SIGNUP_NEWUSER]);
             }
         } else {
-            $this->render('signup', ['error' => ErrorMessages::ERROR_SIGNUP_NEWUSER]);
+            $this->render('signup', ['error' => ErrorsMessages::ERROR_SIGNUP_NEWUSER]);
         }
     }
 }

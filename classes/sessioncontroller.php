@@ -155,7 +155,7 @@ class SessionController extends Controller
         $url = '';
         for ($i = 0; $i < sizeof($this->sites); $i++) {
             if ($this->sites[$i]['role'] === $role) {
-                $url = '/expense-app-mvc/' . $this->sites[$i]['site'];
+                $url = $this->sites[$i]['site'];
                 break;
             }
         }

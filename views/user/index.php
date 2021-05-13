@@ -1,75 +1,137 @@
 <?php
 $user = $this->d['user'];
 ?>
-
-
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User</title>
+    <title>Expense App - Dashboard</title>
+    <link rel="stylesheet" href="<?php echo constant('URL') ?>public/css/user.css">
 </head>
 
 <body>
-    <?php if ($user->getPhoto() != '') { ?>
-        <img src="public/img/photos/<?php echo $user->getPhoto(); ?>" width="200">
-    <?php } ?>
+    <?php require_once 'views/dashboard/header.php'; ?>
 
-    <h2><?php echo ($user->getName() != '') ? $user->getName() : $user->getUserName(); ?> </h2>
-
-    <form action=<?php echo constant('URL') . "/user/updateName" ?> method="POST">
-        <label for="name">Nombre</label>
-        <input type="text" name="name" id="name" autocomplete="off" required value="<?php echo $user->getName() ?>">
-        <div><input type="submit" value="Cambiar Nombre"></div>
-    </form>
-
-    <form action=<?php echo constant('URL') . "/user/updatePhoto" ?> method="POST" enctype="multipart/form-data">
-        <div class="section">
-            <label for="photo">Foto de Perfil</label>
-            <?php
-            if (!empty($user->getPhoto())) {
-            ?>
-                <img src="<?php echo constant('URL') ?>/public/img/photos<?php echo $user->getPhoto() ?>" width="50" height="50">
-            <?php
-            }
-            ?>
-
-            <input type="file" name="photo" id="photo" autocomplete="off" required>
-            <div><input type="submit" value="Cambiar foto de perfil"></div>
-        </div>
-    </form>
-
-    <?php if ($user->getPhoto() != '') { ?>
-        <img src="public/img/photos/<?php echo $user->getPhoto(); ?>" width="200">
-    <?php } ?>
-
-    <h2><?php echo ($user->getName() != '') ? $user->getName() : $user->getUserName(); ?> </h2>
-
-    <section id="password-user-container">
-        <form action="action=<?php echo constant('URL') . "/user/updatePassword" ?>" method="POST">
-            <div class="section">
-                <label for="current_password">Password Actual</label>
-                <input type="current_password" name="current_password" id="current_password" autocomplete="off">
-
-                <label for="new_password">Nuevo Actual</label>
-                <input type="new_password" name="new_password" id="new_password" autocomplete="off">
-                <div><input type="submit" value="Cambiar password"></div>
+    <div id="main-container">
+        <?php $this->showMessages(); ?>
+        <div id="user-container" class="container">
+            <div id="user-header">
+                <div id="user-info-container">
+                    <div id="user-photo">
+                        <?php if ($user->getPhoto() != '') { ?>
+                            <img src="public/img/photos/<?php echo $user->getPhoto(); ?>" width="200" />
+                        <?php }
+                        ?>
+                    </div>
+                    <div id="user-info">
+                        <h2><?php echo ($user->getName() != '') ? $user->getName() : $user->getUsername();  ?></h2>
+                    </div>
+                </div>
             </div>
-        </form>
-    </section>
-
-    <section id="budget-user-container">
-        <form action="action=<?php echo constant('URL') . "/user/updateBudget" ?>" method="POST">
-            <div class="section">
-                <label for="budget">Definir presupuesto</label>
-                <div><input type="number" name="budget" id="budget" autocomplete="off" required value="<?php echo $user->getBudget(); ?>"></div>
-                <div><input type="submit" value="Actualizar Presupuesto"></div>
+            <div id="side-menu">
+                <ul>
+                    <li><a href="#info-user-container">Personalizar usuario</a></li>
+                    <li><a href="#password-user-container">Password</a></li>
+                    <li><a href="#budget-user-container">Presupuesto</a></li>
+                </ul>
             </div>
-        </form>
-    </section>
+
+            <div id="user-section-container">
+
+                <section id="info-user-container">
+                    <form action=<?php echo constant('URL') . 'user/updateName' ?> method="POST">
+                        <div class="section">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="name" autocomplete="off" required value="<?php echo $user->getName() ?>">
+                            <div><input type="submit" value="Cambiar nombre" /></div>
+                        </div>
+                    </form>
+
+                    <form action="<?php echo constant('URL') . 'user/updatePhoto' ?>" method="POST" enctype="multipart/form-data">
+                        <div class="section">
+                            <label for="photo">Foto de perfil</label>
+
+                            <?php
+                            if (!empty($user->getPhoto())) {
+                            ?>
+                                <img src="<?php echo constant('URL') ?>public/img/photos/<?php echo $user->getPhoto() ?>" width="50" height="50" />
+                            <?php
+                            }
+                            ?>
+                            <input type="file" name="photo" id="photo" autocomplete="off" required>
+                            <div><input type="submit" value="Cambiar foto de perfil" /></div>
+                        </div>
+                    </form>
+                </section>
+
+                <section id="password-user-container">
+                    <form action="<?php echo constant('URL') . 'user/updatePassword' ?>" method="POST">
+                        <div class="section">
+                            <label for="current_password">Password actual</label>
+                            <input type="password" name="current_password" id="current_password" autocomplete="off" required>
+
+                            <label for="new_password">Nuevo password</label>
+                            <input type="password" name="new_password" id="new_password" autocomplete="off" required>
+                            <div><input type="submit" value="Cambiar password" /></div>
+                        </div>
+                    </form>
+                </section>
+
+                <section id="budget-user-container">
+                    <form action="user/updateBudget" method="POST">
+                        <div class="section">
+                            <label for="budget">Definir presupuesto</label>
+                            <div><input type="number" name="budget" id="budget" autocomplete="off" required value="<?php echo $user->getBudget() ?>"></div>
+                            <div><input type="submit" value="Actualizar presupuesto" /></div>
+                        </div>
+                    </form>
+                </section>
+
+            </div><!-- user section container -->
+        </div><!-- user container -->
+
+    </div><!-- main container -->
+    <script>
+        const url = location.href;
+        const indexAnchor = url.indexOf('#');
+
+        closeSections();
+
+        if (indexAnchor > 0) {
+            const anchor = url.substring(indexAnchor);
+            document.querySelector(anchor).style.display = 'block';
+
+            document.querySelectorAll('#side-menu a').forEach(item => {
+                if (item.getAttribute('href') === anchor) {
+                    item.classList.add('option-active');
+                }
+            });
+        } else {
+            document.querySelector('#info-user-container').style.display = 'block';
+            document.querySelectorAll('#side-menu a')[0].classList.add('option-active');
+        }
+
+        document.querySelectorAll('#side-menu a').forEach(item => {
+            item.addEventListener('click', e => {
+                closeSections();
+                const anchor = e.target.getAttribute('href');
+                document.querySelector(anchor).style.display = 'block';
+                //e.target.setAttribute('class', 'option-active');
+                e.target.classList.add('option-active');
+            });
+        });
+
+        function closeSections() {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(item => {
+                item.style.display = "none";
+            });
+            document.querySelectorAll('.option-active').forEach(item => {
+                item.classList.remove('option-active');
+            });
+        }
+    </script>
 </body>
 
 </html>
